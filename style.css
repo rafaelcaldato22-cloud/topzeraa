@@ -1,0 +1,135 @@
+/* CONFIGURAÇÃO GERAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+}
+
+/* CONTAINER PRINCIPAL */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: white;
+    box-sizing: border-box;
+}
+
+/* CABEÇALHO */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 3px solid black;
+    background-color: rgb(224, 224, 224);
+    box-sizing: border-box;
+}
+
+/* LOGO */
+.logo {
+    width: 500px;
+    padding: 5px 10px;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 0px;
+}
+
+/* NAVEGAÇÃO */
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+/* CONTEÚDO PRINCIPAL */
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 15px;
+    padding: 25px;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+
+/* PERFIL */
+.perfil {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* ÁREA DOS CARDS (Padrão) */
+.cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* ÁREA DOS 6 CARDS NA PARTE DE CIMA (3 colunas com 2 linhas) */
+.cards-topo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* ÁREA DO CARD NA PARTE DE BAIXO */
+.cards-baixo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-unico {
+    width: 100%;
+}
+
+/* CARD */
+.card {
+    width: 90%;
+    min-height: 180px;
+    padding: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+/* RODAPÉ */
+footer {
+    margin-top: 15px;
+    padding: 25px;
+    min-height: 100px;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
